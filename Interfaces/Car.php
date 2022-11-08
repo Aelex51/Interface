@@ -17,12 +17,12 @@ class Car extends Vehicle implements LightableInterface
 
     public function switchOn(): bool
     {
-        return true;
+        return $this>true;
     }
 
     public function switchOff(): bool
     {
-        return false;
+        return $this->false;
     }
 
     public function getEnergy(): string
